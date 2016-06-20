@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<!--&#91;if lt IE 9&#93;>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!&#91;endif&#93;-->
+<link rel="shortcut icon" href="">
+<script src="jquery.hierselect.js"></script>
+</head>
+<body>
+    <select data-hier-target="#mid-category-id" data-hier-name="category-id" id="top-category-id">
+        <option value="1">システム開発</option>
+        <option value="2">デザイン</option>
+        <option value="3">事務</option>
+    </select>
+    <select data-hier-target="#category-id" data-hier-name="category-id" id="mid-category-id">
+        <option value="1">システム開発</option>
+        <option value="2">デザイン</option>
+        <option value="3">事務</option>
+        <option value="4" data-category-id="1">WEBシステム</option>
+        <option value="5" data-category-id="1">スマホアプリ</option>
+        <option value="6" data-category-id="1">アプリケーション</option>
+        <option value="7" data-category-id="2">ロゴ、イラスト</option>
+        <option value="8" data-category-id="2">印刷</option>
+        <option value="9" data-category-id="3">PC入力</option>
+        <option value="10" data-category-id="3">経理</option>
+        <option value="11" data-category-id="4">WEBシステム</option>
+        <option value="12" data-category-id="4">フロントエンド</option>
+        <option value="13" data-category-id="4">インフラ</option>
+        <option value="14" data-category-id="5">Android</option>
+        <option value="15" data-category-id="5">iOS</option>
+        <option value="16" data-category-id="5">サーバーサイド</option>
+        <option value="17" data-category-id="6">Windows</option>
+        <option value="18" data-category-id="6">macOS</option>
+        <option value="19" data-category-id="7">ロゴ</option>
+        <option value="20" data-category-id="7">イラスト</option>
+        <option value="21" data-category-id="8">印刷物</option>
+        <option value="22" data-category-id="8">DTP</option>
+        <option value="23" data-category-id="9">エクセル、ワード</option>
+        <option value="24" data-category-id="9">データ入力</option>
+        <option value="25" data-category-id="10">会計ソフト</option>
+        <option value="26" data-category-id="10">税務関連</option>
+    </select>
+    <select id="category-id">
+        <option value="1">システム開発</option>
+        <option value="2">デザイン</option>
+        <option value="3">事務</option>
+        <option value="4" data-category-id="1">WEBシステム</option>
+        <option value="5" data-category-id="1">スマホアプリ</option>
+        <option value="6" data-category-id="1">アプリケーション</option>
+        <option value="7" data-category-id="2">ロゴ、イラスト</option>
+        <option value="8" data-category-id="2">印刷</option>
+        <option value="9" data-category-id="3">PC入力</option>
+        <option value="10" data-category-id="3">経理</option>
+        <option value="11" data-category-id="4">WEBシステム</option>
+        <option value="12" data-category-id="4">フロントエンド</option>
+        <option value="13" data-category-id="4">インフラ</option>
+        <option value="14" data-category-id="5">Android</option>
+        <option value="15" data-category-id="5">iOS</option>
+        <option value="16" data-category-id="5">サーバーサイド</option>
+        <option value="17" data-category-id="6">Windows</option>
+        <option value="18" data-category-id="6">macOS</option>
+        <option value="19" data-category-id="7">ロゴ</option>
+        <option value="20" data-category-id="7">イラスト</option>
+        <option value="21" data-category-id="8">印刷物</option>
+        <option value="22" data-category-id="8">DTP</option>
+        <option value="23" data-category-id="9">エクセル、ワード</option>
+        <option value="24" data-category-id="9">データ入力</option>
+        <option value="25" data-category-id="10">会計ソフト</option>
+        <option value="26" data-category-id="10">税務関連</option>
+    </select>
+</body>
+</html>
