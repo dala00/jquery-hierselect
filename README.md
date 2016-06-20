@@ -23,4 +23,5 @@ You need to write no script. Just html tags.
 <option value="2" data-parent-id"=1">Orange</option>
 <option value="3" data-parent-id="2">Dog</option>
 <option value="4" data-parent-id"=2">Cat</option>
+</select>
 ```
